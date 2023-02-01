@@ -5,6 +5,16 @@ __metadata:
   version: 6
   cacheKey: 8
 
+"1-31@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "1-31@workspace:."
+  dependencies:
+    normalize.css: ^8.0.1
+    sass: ^1.58.0
+    vite: ^4.0.0
+  languageName: unknown
+  linkType: soft
+
 "@esbuild/android-arm64@npm:0.16.17":
   version: 0.16.17
   resolution: "@esbuild/android-arm64@npm:0.16.17"
@@ -806,16 +816,6 @@ __metadata:
   checksum: 26bf6c5480dda5161c820c5b5c751ae1e766c587b1f951ea3fcfc973bafb7831ae5b54a31a69bd670220e42e99ec154475025a468eae58ea262f813fdc8d1c62
   languageName: node
   linkType: hard
-
-"logindemo@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "logindemo@workspace:."
-  dependencies:
-    normalize.css: ^8.0.1
-    sass: ^1.58.0
-    vite: ^4.0.0
-  languageName: unknown
-  linkType: soft
 
 "lru-cache@npm:^6.0.0":
   version: 6.0.0
