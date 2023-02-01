@@ -18,27 +18,25 @@
       <div class="login">
         <h1>Welcome</h1>
         <form action="#" class="form">
-
           <!-- Email Input -->
-          <div class="input-group success">
+          <div id="email_Group" class="input-group success">
             <label for="email">UserMail</label>
             <input type="text" id="email" name="email" placeholder="User Email ...">
             <br>
-            <span class="message">Valid Email</span>
+            <span id="email_Msg" class="message">Valid Email</span>
           </div>
 
           <!-- Password Input -->
-          <div id="password_group" class="input-group">
+          <div id="password_group" class="input-group ">
 
             <label for="password">Password</label>
             <input type="password" id="password" name="password" placeholder="User Password ...">
             <span class="password_icon">
-              <i class="fa-solid fa-eye"></i>
-              <i class="fa-solid fa-eye-slash"></i>
+              <i id="eye" class="fa-solid fa-eye"></i>
+              <i id="eye-slash" class="fa-solid fa-eye-slash"></i>
             </span>
             <span id="password_msg" class="message">Valid Password</span>
           </div>
-
           <button type="submit" class="login-button">Login</button>
 
         </form>
